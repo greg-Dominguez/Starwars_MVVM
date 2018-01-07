@@ -36,15 +36,24 @@ extension TableViewFunctionsDetail7:UITableViewDelegate,UITableViewDataSource{
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "detailCell") else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "CustomCell") else {
             fatalError("No cell in tableView")
         }
+        
+        
+        //cell.setPlaceHolder()
+        //cell.loadImage(from: images[indexPath.row])
         return cell
     }
+    
 
     func numberOfSections(in tableView: UITableView) -> Int {
         return 16
     }
-
+    
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        
+        return "Detail Description"
+    }
 }
 

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		841A52141FF07B4700FDA153 /* GlobalCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A52131FF07B4700FDA153 /* GlobalCache.swift */; };
 		841A52161FF0924A00FDA153 /* CustomPeopleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A52151FF0924A00FDA153 /* CustomPeopleCell.swift */; };
+		842FB295200201FF00CCDAB6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842FB294200201FF00CCDAB6 /* XCTest.framework */; };
+		842FB29D2002029A00CCDAB6 /* StarwarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842FB29C2002029A00CCDAB6 /* StarwarsTests.swift */; };
 		84578D0C1FF055B20026DCE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84578D0B1FF055B20026DCE5 /* AppDelegate.swift */; };
 		84578D111FF055B20026DCE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84578D0F1FF055B20026DCE5 /* Main.storyboard */; };
 		84578D141FF055B20026DCE5 /* Starwars.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84578D121FF055B20026DCE5 /* Starwars.xcdatamodeld */; };
@@ -23,23 +25,42 @@
 		84578D2E1FF05FB10026DCE5 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84578D2D1FF05FB10026DCE5 /* Networking.swift */; };
 		8474AE561FF18AD4000C55C5 /* PeopleHeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8474AE551FF18AD4000C55C5 /* PeopleHeaderViewCell.swift */; };
 		848896EEB558B68D4E6113EB /* Pods_Starwars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 600980F775F9E200A2100FC4 /* Pods_Starwars.framework */; };
-		848F22D91FF37B0400A83BB5 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F22D21FF37B0200A83BB5 /* FifthViewController.swift */; };
+		848B8E791FF386B10018775C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848B8E781FF386B10018775C /* SignUpViewController.swift */; };
+		848B8E7B1FF386F80018775C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848B8E7A1FF386F80018775C /* LoginViewController.swift */; };
+		848B8E7D1FF3873A0018775C /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848B8E7C1FF3873A0018775C /* ResetPasswordViewController.swift */; };
+		848B8E7F1FF396A90018775C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848B8E7E1FF396A90018775C /* HomeViewController.swift */; };
+		848B8E831FF3B9E10018775C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 848B8E821FF3B9E10018775C /* GoogleService-Info.plist */; };
+		848F22D91FF37B0400A83BB5 /* VehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F22D21FF37B0200A83BB5 /* VehicleViewController.swift */; };
 		848F22DA1FF37B0400A83BB5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F22D31FF37B0200A83BB5 /* DetailViewController.swift */; };
-		848F22DB1FF37B0400A83BB5 /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F22D41FF37B0300A83BB5 /* SixthViewController.swift */; };
-		848F22DC1FF37B0400A83BB5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F22D51FF37B0300A83BB5 /* SecondViewController.swift */; };
-		848F22DD1FF37B0400A83BB5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F22D61FF37B0300A83BB5 /* FirstViewController.swift */; };
-		848F22DE1FF37B0400A83BB5 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F22D71FF37B0400A83BB5 /* FourthViewController.swift */; };
-		848F22DF1FF37B0400A83BB5 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F22D81FF37B0400A83BB5 /* ThirdViewController.swift */; };
+		848F22DB1FF37B0400A83BB5 /* SpeciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F22D41FF37B0300A83BB5 /* SpeciesViewController.swift */; };
+		848F22DC1FF37B0400A83BB5 /* PlanetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F22D51FF37B0300A83BB5 /* PlanetsViewController.swift */; };
+		848F22DD1FF37B0400A83BB5 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F22D61FF37B0300A83BB5 /* PeopleViewController.swift */; };
+		848F22DE1FF37B0400A83BB5 /* FilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F22D71FF37B0400A83BB5 /* FilmsViewController.swift */; };
+		848F22DF1FF37B0400A83BB5 /* StarshipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F22D81FF37B0400A83BB5 /* StarshipsViewController.swift */; };
 		84E15AAC1FF1B72C00CDC809 /* CustomStarshipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E15AAB1FF1B72C00CDC809 /* CustomStarshipCell.swift */; };
 		84E15AB01FF20F8C00CDC809 /* CustomSpecieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E15AAF1FF20F8C00CDC809 /* CustomSpecieCell.swift */; };
 		84E15AB61FF23CDA00CDC809 /* CustomVehicleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E15AB51FF23CDA00CDC809 /* CustomVehicleCell.swift */; };
 		84E15AB81FF23CE800CDC809 /* CustomFilmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E15AB71FF23CE800CDC809 /* CustomFilmCell.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		842FB29F2002029A00CCDAB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84578D001FF055B20026DCE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84578D071FF055B20026DCE5;
+			remoteInfo = Starwars;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		600980F775F9E200A2100FC4 /* Pods_Starwars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Starwars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		841A52131FF07B4700FDA153 /* GlobalCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalCache.swift; sourceTree = "<group>"; };
 		841A52151FF0924A00FDA153 /* CustomPeopleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPeopleCell.swift; sourceTree = "<group>"; };
+		842FB294200201FF00CCDAB6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		842FB29A2002029900CCDAB6 /* StarwarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarwarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		842FB29C2002029A00CCDAB6 /* StarwarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarwarsTests.swift; sourceTree = "<group>"; };
+		842FB29E2002029A00CCDAB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84578D081FF055B20026DCE5 /* Starwars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starwars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84578D0B1FF055B20026DCE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84578D101FF055B20026DCE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,13 +76,18 @@
 		84578D2B1FF058720026DCE5 /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
 		84578D2D1FF05FB10026DCE5 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		8474AE551FF18AD4000C55C5 /* PeopleHeaderViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleHeaderViewCell.swift; sourceTree = "<group>"; };
-		848F22D21FF37B0200A83BB5 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		848B8E781FF386B10018775C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		848B8E7A1FF386F80018775C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		848B8E7C1FF3873A0018775C /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		848B8E7E1FF396A90018775C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		848B8E821FF3B9E10018775C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		848F22D21FF37B0200A83BB5 /* VehicleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleViewController.swift; sourceTree = "<group>"; };
 		848F22D31FF37B0200A83BB5 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		848F22D41FF37B0300A83BB5 /* SixthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
-		848F22D51FF37B0300A83BB5 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		848F22D61FF37B0300A83BB5 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		848F22D71FF37B0400A83BB5 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
-		848F22D81FF37B0400A83BB5 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		848F22D41FF37B0300A83BB5 /* SpeciesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeciesViewController.swift; sourceTree = "<group>"; };
+		848F22D51FF37B0300A83BB5 /* PlanetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetsViewController.swift; sourceTree = "<group>"; };
+		848F22D61FF37B0300A83BB5 /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		848F22D71FF37B0400A83BB5 /* FilmsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmsViewController.swift; sourceTree = "<group>"; };
+		848F22D81FF37B0400A83BB5 /* StarshipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarshipsViewController.swift; sourceTree = "<group>"; };
 		84E15AAB1FF1B72C00CDC809 /* CustomStarshipCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStarshipCell.swift; sourceTree = "<group>"; };
 		84E15AAF1FF20F8C00CDC809 /* CustomSpecieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSpecieCell.swift; sourceTree = "<group>"; };
 		84E15AB51FF23CDA00CDC809 /* CustomVehicleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVehicleCell.swift; sourceTree = "<group>"; };
@@ -71,10 +97,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		842FB2972002029900CCDAB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		84578D051FF055B20026DCE5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842FB295200201FF00CCDAB6 /* XCTest.framework in Frameworks */,
 				848896EEB558B68D4E6113EB /* Pods_Starwars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,10 +125,27 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		842FB29B2002029A00CCDAB6 /* StarwarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				842FB29C2002029A00CCDAB6 /* StarwarsTests.swift */,
+				842FB29E2002029A00CCDAB6 /* Info.plist */,
+			);
+			path = StarwarsTests;
+			sourceTree = "<group>";
+		};
+		842FB2A4200202D600CCDAB6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		84578CFF1FF055B20026DCE5 = {
 			isa = PBXGroup;
 			children = (
 				84578D0A1FF055B20026DCE5 /* Starwars */,
+				842FB29B2002029A00CCDAB6 /* StarwarsTests */,
 				84578D091FF055B20026DCE5 /* Products */,
 				7A4362F62EEDE3F942FD0BFA /* Pods */,
 				A90193F9D54E202ECEF24EFB /* Frameworks */,
@@ -105,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				84578D081FF055B20026DCE5 /* Starwars.app */,
+				842FB29A2002029900CCDAB6 /* StarwarsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,11 +164,13 @@
 		84578D0A1FF055B20026DCE5 /* Starwars */ = {
 			isa = PBXGroup;
 			children = (
+				842FB2A4200202D600CCDAB6 /* ViewModel */,
 				84578D311FF05FF10026DCE5 /* Controller */,
 				84578D2F1FF05FCF0026DCE5 /* Networking */,
 				84578D201FF0567F0026DCE5 /* Model */,
 				84578D301FF05FE00026DCE5 /* View */,
 				84578D151FF055B20026DCE5 /* Assets.xcassets */,
+				848B8E821FF3B9E10018775C /* GoogleService-Info.plist */,
 				84578D1A1FF055B20026DCE5 /* Info.plist */,
 				84578D121FF055B20026DCE5 /* Starwars.xcdatamodeld */,
 			);
@@ -165,12 +219,16 @@
 			isa = PBXGroup;
 			children = (
 				848F22D31FF37B0200A83BB5 /* DetailViewController.swift */,
-				848F22D21FF37B0200A83BB5 /* FifthViewController.swift */,
-				848F22D61FF37B0300A83BB5 /* FirstViewController.swift */,
-				848F22D71FF37B0400A83BB5 /* FourthViewController.swift */,
-				848F22D51FF37B0300A83BB5 /* SecondViewController.swift */,
-				848F22D41FF37B0300A83BB5 /* SixthViewController.swift */,
-				848F22D81FF37B0400A83BB5 /* ThirdViewController.swift */,
+				848F22D21FF37B0200A83BB5 /* VehicleViewController.swift */,
+				848F22D61FF37B0300A83BB5 /* PeopleViewController.swift */,
+				848F22D71FF37B0400A83BB5 /* FilmsViewController.swift */,
+				848F22D51FF37B0300A83BB5 /* PlanetsViewController.swift */,
+				848F22D41FF37B0300A83BB5 /* SpeciesViewController.swift */,
+				848F22D81FF37B0400A83BB5 /* StarshipsViewController.swift */,
+				848B8E781FF386B10018775C /* SignUpViewController.swift */,
+				848B8E7A1FF386F80018775C /* LoginViewController.swift */,
+				848B8E7C1FF3873A0018775C /* ResetPasswordViewController.swift */,
+				848B8E7E1FF396A90018775C /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,6 +236,7 @@
 		A90193F9D54E202ECEF24EFB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				842FB294200201FF00CCDAB6 /* XCTest.framework */,
 				600980F775F9E200A2100FC4 /* Pods_Starwars.framework */,
 			);
 			name = Frameworks;
@@ -186,6 +245,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		842FB2992002029900CCDAB6 /* StarwarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842FB2A12002029A00CCDAB6 /* Build configuration list for PBXNativeTarget "StarwarsTests" */;
+			buildPhases = (
+				842FB2962002029900CCDAB6 /* Sources */,
+				842FB2972002029900CCDAB6 /* Frameworks */,
+				842FB2982002029900CCDAB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				842FB2A02002029A00CCDAB6 /* PBXTargetDependency */,
+			);
+			name = StarwarsTests;
+			productName = StarwarsTests;
+			productReference = 842FB29A2002029900CCDAB6 /* StarwarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		84578D071FF055B20026DCE5 /* Starwars */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84578D1D1FF055B20026DCE5 /* Build configuration list for PBXNativeTarget "Starwars" */;
@@ -216,6 +293,11 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Greg Dominguez";
 				TargetAttributes = {
+					842FB2992002029900CCDAB6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84578D071FF055B20026DCE5;
+					};
 					84578D071FF055B20026DCE5 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -236,16 +318,25 @@
 			projectRoot = "";
 			targets = (
 				84578D071FF055B20026DCE5 /* Starwars */,
+				842FB2992002029900CCDAB6 /* StarwarsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		842FB2982002029900CCDAB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		84578D061FF055B20026DCE5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				84578D191FF055B20026DCE5 /* LaunchScreen.storyboard in Resources */,
+				848B8E831FF3B9E10018775C /* GoogleService-Info.plist in Resources */,
 				84578D161FF055B20026DCE5 /* Assets.xcassets in Resources */,
 				84578D111FF055B20026DCE5 /* Main.storyboard in Resources */,
 			);
@@ -316,6 +407,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		842FB2962002029900CCDAB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842FB29D2002029A00CCDAB6 /* StarwarsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		84578D041FF055B20026DCE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -328,25 +427,37 @@
 				84578D2A1FF0586B0026DCE5 /* Films.swift in Sources */,
 				84578D221FF056DA0026DCE5 /* People.swift in Sources */,
 				84578D241FF058370026DCE5 /* Planets.swift in Sources */,
-				848F22DE1FF37B0400A83BB5 /* FourthViewController.swift in Sources */,
+				848F22DE1FF37B0400A83BB5 /* FilmsViewController.swift in Sources */,
+				848B8E7D1FF3873A0018775C /* ResetPasswordViewController.swift in Sources */,
 				84E15AB61FF23CDA00CDC809 /* CustomVehicleCell.swift in Sources */,
 				84578D141FF055B20026DCE5 /* Starwars.xcdatamodeld in Sources */,
-				848F22DB1FF37B0400A83BB5 /* SixthViewController.swift in Sources */,
-				848F22D91FF37B0400A83BB5 /* FifthViewController.swift in Sources */,
+				848F22DB1FF37B0400A83BB5 /* SpeciesViewController.swift in Sources */,
+				848F22D91FF37B0400A83BB5 /* VehicleViewController.swift in Sources */,
+				848B8E7F1FF396A90018775C /* HomeViewController.swift in Sources */,
+				848B8E7B1FF386F80018775C /* LoginViewController.swift in Sources */,
 				84E15AB01FF20F8C00CDC809 /* CustomSpecieCell.swift in Sources */,
 				84578D281FF0585A0026DCE5 /* Vehicles.swift in Sources */,
 				841A52141FF07B4700FDA153 /* GlobalCache.swift in Sources */,
-				848F22DF1FF37B0400A83BB5 /* ThirdViewController.swift in Sources */,
-				848F22DC1FF37B0400A83BB5 /* SecondViewController.swift in Sources */,
+				848F22DF1FF37B0400A83BB5 /* StarshipsViewController.swift in Sources */,
+				848F22DC1FF37B0400A83BB5 /* PlanetsViewController.swift in Sources */,
+				848B8E791FF386B10018775C /* SignUpViewController.swift in Sources */,
 				841A52161FF0924A00FDA153 /* CustomPeopleCell.swift in Sources */,
 				84578D2C1FF058730026DCE5 /* Species.swift in Sources */,
 				84E15AB81FF23CE800CDC809 /* CustomFilmCell.swift in Sources */,
 				84578D0C1FF055B20026DCE5 /* AppDelegate.swift in Sources */,
-				848F22DD1FF37B0400A83BB5 /* FirstViewController.swift in Sources */,
+				848F22DD1FF37B0400A83BB5 /* PeopleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		842FB2A02002029A00CCDAB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84578D071FF055B20026DCE5 /* Starwars */;
+			targetProxy = 842FB29F2002029A00CCDAB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		84578D0F1FF055B20026DCE5 /* Main.storyboard */ = {
@@ -368,6 +479,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		842FB2A22002029A00CCDAB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StarwarsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RGD-Inc.StarwarsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Starwars.app/Starwars";
+			};
+			name = Debug;
+		};
+		842FB2A32002029A00CCDAB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StarwarsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RGD-Inc.StarwarsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Starwars.app/Starwars";
+			};
+			name = Release;
+		};
 		84578D1B1FF055B20026DCE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -508,6 +649,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		842FB2A12002029A00CCDAB6 /* Build configuration list for PBXNativeTarget "StarwarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842FB2A22002029A00CCDAB6 /* Debug */,
+				842FB2A32002029A00CCDAB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		84578D031FF055B20026DCE5 /* Build configuration list for PBXProject "Starwars" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
